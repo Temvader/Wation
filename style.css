@@ -7,6 +7,8 @@ body {
     background: url(assets/Globus.svg) right 2em center fixed no-repeat, #000000;
     background-size: 35em;
     padding: 1em 4em;
+
+    color: white;
 }
 
 ::-webkit-scrollbar {
@@ -37,6 +39,13 @@ h1,h2,h3,h4,h5,h6,p {
     border-radius: 30px;
 
     padding: .4em 1em;
+}
+
+.main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .btn-tr {
@@ -77,4 +86,13 @@ h1,h2,h3,h4,h5,h6,p {
 }
 
 
+.center {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.email {
+    color: white;
+}
 
