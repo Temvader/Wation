@@ -2,11 +2,9 @@
 
 
 body {
-    height: 100vh;
     font-family: "DM Sans", sans-serif;
     background: url(assets/Globus.svg) right 2em center fixed no-repeat, #000000;
     background-size: 35em;
-    padding: 1em 4em;
 
     color: white;
 }
@@ -45,7 +43,10 @@ h1,h2,h3,h4,h5,h6,p {
     height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    gap: 60px;
+
+    padding: 1em 4em;
+
 }
 
 .btn-tr {
@@ -89,6 +90,8 @@ h1,h2,h3,h4,h5,h6,p {
 .center {
     display: flex;
     justify-content: space-between;
+
+    position: initial;
 }
 
 
@@ -106,6 +109,11 @@ h1,h2,h3,h4,h5,h6,p {
     display: flex;
     align-items: center;
     height: 50px;
+}
+
+.phone {
+    position: relative;
+    z-index: 1;
 }
 
 .email {
@@ -132,6 +140,57 @@ h1,h2,h3,h4,h5,h6,p {
 .dream {
     font-size: 80px;
     font-weight: 400;
+    line-height: 1.2em;
 }
 
 
+.m-inner {
+    margin-top: -15em;
+
+    background-color: black;
+    border: 2px solid #252528;
+    border-radius: 30px;
+
+    padding: 2em 4em;
+
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.end-inner {
+    padding: 0em 1em;
+}
+
+.s-easy {
+    color: #AFAFB6;
+}
+
+.p-top {
+    color: #AFAFB6;
+    font-size: 20px;
+}
+
+.pay {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.p-img {
+    display: flex;
+    gap: 80px;
+}
+
+.connect {
+    height: 35px;
+}
+
+.store {
+    display: flex;
+    gap: 50px;
+}
+
+.store-inner {
+    height: 30px;
+}
